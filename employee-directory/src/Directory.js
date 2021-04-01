@@ -1,4 +1,4 @@
-import './App.css';
+import './Directory.css';
 import { Form, Table } from 'react-bootstrap';
 
 const Title = () => {
@@ -44,7 +44,7 @@ const EmployeeTable = () => {
 };
 
 
-function App() {
+function Directory() {
   return (
     <>
       <Title/>
@@ -54,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default Directory;
