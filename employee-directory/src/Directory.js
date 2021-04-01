@@ -1,12 +1,13 @@
 import './Directory.css';
+import React from 'react';
 import { Form, Table } from 'react-bootstrap';
 
-const Title = () => {
+const Title = () => (
   <h1 style={{ width: '100%', textAlign: 'center' }}>Employee Directory</h1>
-};
+);
 
 const SearchBar = () => {
-  return <Form.Control type="text" placeholder="Normal text" />
+  return <Form.Control type="text" placeholder="Normal text" />;
 };
 
 const EmployeeTable = () => {
@@ -46,11 +47,11 @@ const EmployeeTable = () => {
 
 function Directory() {
   return (
-    <>
+    <div>
       <Title/>
       <SearchBar/>
       <EmployeeTable/>
-    </>
+    </div>
   );
 }
 
