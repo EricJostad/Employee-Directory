@@ -1,7 +1,7 @@
 import "./Directory.css";
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
-import EmployeeTable from "./EmployeeTable";
+import EmployeeTable from "./components/EmployeeTable.js";
 
 const Title = () => (
   <h1 style={{ width: "100%", textAlign: "center" }}>Employee Directory</h1>
