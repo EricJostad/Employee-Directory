@@ -19,6 +19,7 @@ const EmployeeTable = ({ searchTerm }) => {
           <th>#</th>
           <th>First Name</th>
           <th>Last Name</th>
+          <th>DOB</th>
           <th>Email</th>
         </tr>
       </thead>
@@ -38,6 +39,7 @@ const EmployeeRow = ({ dob, name, email, i }) => (
     <td>{i}</td>
     <td>{name.first}</td>
     <td>{name.last}</td>
+    <td>{dob.date}</td>
     <td>{email}</td>
   </tr>
 );
